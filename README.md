@@ -1,6 +1,6 @@
 # Design and build pneumatics projects
 
-This is the github repo behind the pneumatics website. 
+This is the github repo behind the pneumatics website. You can find the website here: [https://kvriet.github.io/pneumatics/](https://kvriet.github.io/pneumatics/)
 
 ## Licensing and Attribution
 
