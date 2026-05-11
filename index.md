@@ -7,7 +7,9 @@ nav_order: 0
 # Pneumatics Projects
 
 {: .fs-9 }
-Pneumatics Projects helps you design and build pneumatically actuated projects. The documentation is based on questions I commonly get from students. I decided to answer them all in one place, so you can easily find the reference material. {: .fs-6 .fw-300 }
+
+Pneumatics Projects helps you design and build pneumatically actuated projects. The documentation is based on questions I commonly get from students. I decided to answer them all in one place, so you can easily find the reference material. 
+{: .fs-6 .fw-300 }
 
 _Are you a TU/e student and your question isn't answered here? Send me a message on the TU/e Teams and I'll try to help you._
 
