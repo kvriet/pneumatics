@@ -21,7 +21,7 @@ ___
 **Referencing**
 To cite this resource, use the following:  
 ```
-van Riet, C. M. (2026). Home. Pneumatics Projects. https://kvriet.github.io/pneumatics/
+van Riet, C. M. (2026). Home. Pneumatics Design Wiki. https://kvriet.github.io/pneumatics/
 ```
 
 Or copy this BibTeX into your reference manager, like [Zotero](https://www.zotero.org/){:target="_blank"}:  
@@ -32,7 +32,7 @@ Or copy this BibTeX into your reference manager, like [Zotero](https://www.zoter
 	abstract = {A wiki for designing and building pneumatics projects.},
 	language = {en-US},
 	urldate = {2026-05-12},
-	journal = {Pneumatics Projects},
+	journal = {Pneumatics Design Wiki},
 	author = {van Riet, Catharina M.},
 	year = {2026},
 }
