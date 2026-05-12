@@ -20,37 +20,37 @@ Depending on your inflation needs, you might need only one pump, or a variety of
 
 ### One pump, controlled by microcontroller
 **Needed:**  
-- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v))
-- 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a))
-- N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a))
-- general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007)
-- microcontroller (e.g. ESP32 C3 Zero [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero))
+- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
+- 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a){:target="_blank"})
+- N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a){:target="_blank"})
+- general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007){:target="_blank"})
+- microcontroller (e.g. ESP32 C3 Zero [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero){:target="_blank"})
 - 100k resistor
 
 [Schematic]
-Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit. The pump is placed in between the 12V source and the mosfet. This is called low-side switching. To learn more about high-side and low-side switching, see this webpage: [link](https://amaldev.blog/back-to-basics-high-side-and-low-side-mosfet-switches-part-1/).
+Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit. The pump is placed in between the 12V source and the mosfet. This is called low-side switching. To learn more about high-side and low-side switching, see this webpage: [link](https://amaldev.blog/back-to-basics-high-side-and-low-side-mosfet-switches-part-1/){:target="_blank"}.
 
 [Falstad]
-You can try out and edit the circuit here: [Falstad simulator - 1 pump](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdlSS2PaO9nSesDgIYQZGAGoAhhAASvlgADYxyJbWttbsSc6uFC5QAO5uvLAKCH5K+aayilAY3gi5APZlaPmRalnhRgAiAMIAsuNo49DmCHFQkizJTkjpbiJQYAB2QX4QWMioANZBSH6PEnivqABWQdjpH3wfki3RQ6HymWyESKlT2ByOdSayBa7UyUD6AwooQWwFasJS2iseyQ9SRIihRjxOzhh2Ykn2LDJ8xyuPxxysdOsJyZFOAABkAKKLSqcwlQTkHJno8aIAAmahg+QArlMNGU1LK+KC+JE0QI0Up+OQEHhsChedsLFZnNZqglzmdUKDCARmREqVb7IkEfaeTiPbsUvaEUhLH69MAQuAIPogA)
+You can try out and edit the circuit here: [Falstad simulator - 1 pump](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdlSS2PaO9nSesDgIYQZGAGoAhhAASvlgADYxyJbWttbsSc6uFC5QAO5uvLAKCH5K+aayilAY3gi5APZlaPmRalnhRgAiAMIAsuNo49DmCHFQkizJTkjpbiJQYAB2QX4QWMioANZBSH6PEnivqABWQdjpH3wfki3RQ6HymWyESKlT2ByOdSayBa7UyUD6AwooQWwFasJS2iseyQ9SRIihRjxOzhh2Ykn2LDJ8xyuPxxysdOsJyZFOAABkAKKLSqcwlQTkHJno8aIAAmahg+QArlMNGU1LK+KC+JE0QI0Up+OQEHhsChedsLFZnNZqglzmdUKDCARmREqVb7IkEfaeTiPbsUvaEUhLH69MAQuAIPogA){:target="_blank"}
 
 [Fritzing]
 Example breadboard layout.
 
 ### One pump, one solenoid valve, both controlled by microcontroller
 **Needed:**  
-- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v))
+- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
 - 12V solenoid valve (anything 12V, e.g. Tailonz 2v025-08. Try Amazon, AliExpress, etc.)
-- 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a))
-- 2x N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a))
-- 2x general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007)
-- microcontroller (e.g. ESP32 C3 Zero [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero))
+- 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a){:target="_blank"})
+- 2x N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a){:target="_blank"})
+- 2x general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007){:target="_blank"})
+- microcontroller (e.g. ESP32 C3 Zero [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero){:target="_blank"})
 - 100k resistor
 
 [Schematic]
 Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit.
 
 [Falstad]
-You can try out and edit the circuit here: [Falstad simulator - 1 pump, 1 solenoid](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdvRWcVDMkq44CGEGRgBqAIYQAEq5YAA2MciW1rbW7NhVLrAUDQDubrywCgh+SrmmsopQGN4I2QD2JWi5kWoZ4UYAIgDCALKjaKPQ5ghJkiz2jtZIno0IIlBgAHZBfhBYyKgA1kFIfg8SeC+oAFZB2Mfv+D8kU6KHQuXSmQiBXKOz2SSQDTcCNQrXSUB6fQooTmwGaMIO2kSBNqaVOsyyuPxdl2yWwkigu1JIkhRjxW3hR1p9MJTPJEQAMgBReblFKHKxixknM5KUaIAAmahguQArhMNCU1PK+CC+JE0QI0Up+ORTvgUCzgJsLFZnNZKlRJGc3GcQYQCHzWeUkA6nft4k7eZa2bEDo66vDLEGcUKRVtpLbOQmGSxeei5QhFcq1WgNVqdRQ9Qb3soTb8LTiQ+4WNykx5xdGKVXGDWUwz61KXZ7gEtVutrdX6TSW7Xjl3zlczTc7qCnmbPlA3s8-D8zX9UADsEDdWCIZXRXS2yOU42IlXk+H27ao9Lu832HC-RfA7fLQPGA-6slP+G0273Xe5TJoSV41M6e4UnkhTFGUWwfnsdqMB+9SksiUCogg7QwJ03S9P0XSoEMiBjBMUwzJaJhwZ+drAbYpIeF4Ph+AEvzYk2VL2H6SQJKeXrxvWl4XnQY4QWeHEJKBPGvvowAhOAED6EAA)
+You can try out and edit the circuit here: [Falstad simulator - 1 pump, 1 solenoid](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdvRWcVDMkq44CGEGRgBqAIYQAEq5YAA2MciW1rbW7NhVLrAUDQDubrywCgh+SrmmsopQGN4I2QD2JWi5kWoZ4UYAIgDCALKjaKPQ5ghJkiz2jtZIno0IIlBgAHZBfhBYyKgA1kFIfg8SeC+oAFZB2Mfv+D8kU6KHQuXSmQiBXKOz2SSQDTcCNQrXSUB6fQooTmwGaMIO2kSBNqaVOsyyuPxdl2yWwkigu1JIkhRjxW3hR1p9MJTPJEQAMgBReblFKHKxixknM5KUaIAAmahguQArhMNCU1PK+CC+JE0QI0Up+ORTvgUCzgJsLFZnNZKlRJGc3GcQYQCHzWeUkA6nft4k7eZa2bEDo66vDLEGcUKRVtpLbOQmGSxeei5QhFcq1WgNVqdRQ9Qb3soTb8LTiQ+4WNykx5xdGKVXGDWUwz61KXZ7gEtVutrdX6TSW7Xjl3zlczTc7qCnmbPlA3s8-D8zX9UADsEDdWCIZXRXS2yOU42IlXk+H27ao9Lu832HC-RfA7fLQPGA-6slP+G0273Xe5TJoSV41M6e4UnkhTFGUWwfnsdqMB+9SksiUCogg7QwJ03S9P0XSoEMiBjBMUwzJaJhwZ+drAbYpIeF4Ph+AEvzYk2VL2H6SQJKeXrxvWl4XnQY4QWeHEJKBPGvvowAhOAED6EAA){:target="_blank"}
 
 [Fritzing]
 Example breadboard layout.
