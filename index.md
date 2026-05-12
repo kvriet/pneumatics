@@ -16,12 +16,17 @@ _Are you a TU/e student and your question isn't answered here? Send me a message
 1. Electronics & Components: how can I design and build my own pump/valve/pressure sensor system?
 1. Inspiration
 
+___
+
 **Referencing**
 To cite this resource, use the following:  
-`van Riet, C. M. (2026). Home. Pneumatics Projects. https://kvriet.github.io/pneumatics/`
+```
+van Riet, C. M. (2026). Home. Pneumatics Projects. https://kvriet.github.io/pneumatics/
+```
 
 Or copy this BibTeX into your reference manager, like [Zotero](zotero.org):  
-`@misc{van_riet_pneumatics_2026,
+```
+@misc{van_riet_pneumatics_2026,
 	title = {Home},
 	url = {https://kvriet.github.io/pneumatics/},
 	abstract = {A wiki for designing and building pneumatics projects.},
@@ -30,4 +35,5 @@ Or copy this BibTeX into your reference manager, like [Zotero](zotero.org):
 	journal = {Pneumatics Projects},
 	author = {van Riet, Catharina M.},
 	year = {2026},
-}`
+}
+```
