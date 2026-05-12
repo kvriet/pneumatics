@@ -20,12 +20,28 @@ On the inside of the pump are magnets and a coil. When the coil is powered, the 
 
 ### One pump, controlled by microcontroller
 **Needed:**
-- pump (e.g. A370 [https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v))
-- power supply (e.g. 12V, 2A [https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a)
-- N-channel MOSFET (e.g. IRF740 [https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a)
-- microcontroller (e.g. ESP32 C3 Zero [https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero)
+- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v))
+- 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a))
+- N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a))
+- general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007)
+- microcontroller (e.g. ESP32 C3 Zero [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero))
 
-[Image here:]
-circuit
+[Schematic]
+Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit.
+
+[Falstad]
+You can try and edit the circuit here: [Falstad simulator - 1 pump](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdlSS2PaO9nSesDgIYQZGAGoAhhAASvlgADYxyJbWttbsSc6uFC5QAO5uvLAKCH5K+aayilAY3gi5APZlaPmRalnhRgAiAMIAsuNo49DmCHFQkizJTkjpbiJQYAB2QX4QWMioANZBSH6PEnivqABWQdjpH3wfki3RQ6HymWyESKlT2ByOdSayBa7UyUD6AwooQWwFasJS2iseyQ9SRIihRjxOzhh2Ykn2LDJ8xyuPxxysdOsJyZFOAABkAKKLSqcwlQTkHJno8aIAAmahg+QArlMNGU1LK+KC+JE0QI0Up+OQEHhsChedsLFZnNZqglzmdUKDCOScVSrfZEgj7Ty3WzPUliZZfXpgCFwBB9EA)
 
 [Fritzing]
+Example breadboard layout.
+
+### One pump, one solenoid valve, both controlled by microcontroller
+**Needed:**
+- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v))
+- 12V solenoid valve (anything 12V, e.g. Tailonz 2v025-08. Try Amazon, AliExpress, etc.)
+- 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a))
+- N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a))
+- general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007)
+- microcontroller (e.g. ESP32 C3 Zero [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/waveshare-esp32-c3-zero))
+
+
