@@ -3,7 +3,6 @@ title: Air Circuits
 layout: default
 nav_order: 2
 ---
-# Air Circuits
 
 ## Table of contents
 
@@ -11,4 +10,26 @@ nav_order: 2
 {:toc}
 ---
 
-Here some lorem ipsum
+## Air circuits
+You can think of the flow of air just like the flow of electricity. With a pump, you build up pressure, which enters your inflatable. There are two main ways to deflate the inflatable: a) open a valve to the outside atmosphere to let air out, for example with a solenoid valve; b) make the inflatable leaky (for example with another tube that vents to atmosphere) so that it deflates as soon as the pump is turned off. The pump can then again suck in air from the atmosphere to inflate your device. 
+
+This process can be seen as a **circuit**: air from the atmosphere goes into the pump, into your device, exits your device into the atmosphere, and is sucked up again by the pump.
+
+## Pneumatic-electronic analogy
+In this **pneumatic-electronic analogy**, the pump is like a battery, the positive pressure that the pump creates is like voltage, and the baseline level of pressure (atmospheric pressure) is like 'ground' in an electronics circuit. Very thin air channels are like resistors (think of drinking a milkshake with a big straw or a very thin straw, and the resistance you would feel!). Air volumes are like capacitors: they charge up with pressure and deflate if there's a drop in pressure. In that sense they can serve as filters or delays. The table below shows a mapping of pneumatic to electronic terms:
+
+| Pneumatic Term     | Electrical Term      |
+| ------------- | ------------- |
+| Pressure                     | Voltage   |
+| Airflow                      | Current   |
+| Pump                         | Voltage source   |
+| Air reservoir                | Capacitor   |
+| Flow restrictor               | Resistor   |
+| One-way valve                 | Diode   |
+| Ambient atmospheric pressure  | Ground   |
+
+## What kind of air circuit do I need?
+This depends on the kind of device you're building. Below is a list of some example configurations you can use.
+
+
+
