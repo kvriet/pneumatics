@@ -24,7 +24,7 @@ To cite this resource, use the following:
 van Riet, C. M. (2026). Home. Pneumatics Projects. https://kvriet.github.io/pneumatics/
 ```
 
-Or copy this BibTeX into your reference manager, like [Zotero](zotero.org):  
+Or copy this BibTeX into your reference manager, like [Zotero](https://www.zotero.org/){:target="_blank"}:  
 ```
 @misc{van_riet_pneumatics_2026,
 	title = {Home},
