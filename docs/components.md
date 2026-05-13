@@ -15,9 +15,9 @@ Here are some suggestions for commonly used materials. Some materials are expens
 
 ## Electronics
 For pumps, solenoid valves, air pressure sensors, microcontrollers, try shops like: 
-- TinyTronics: [link](https://www.tinytronics.nl/)
-- RobotShop: [link](https://eu.robotshop.com/nl/)
-- Kiwi Electronics: [link](https://www.kiwi-electronics.nl/)
+- TinyTronics: [link](https://www.tinytronics.nl/){:target="_blank"}
+- RobotShop: [link](https://eu.robotshop.com/nl/){:target="_blank"}
+- Kiwi Electronics: [link](https://www.kiwi-electronics.nl/){:target="_blank"}
 - Or at your own risk, Amazon and AliExpress.
 
 
@@ -25,18 +25,18 @@ For pumps, solenoid valves, air pressure sensors, microcontrollers, try shops li
 
 | type          | order link    |
 | ------------- | ------------- |
-| Silicone tubing, e.g. 8x5mm, 6x3mm, 3x1.5mm        |  [TinyTronics 5x3mm](https://www.tinytronics.nl/en/mechanics-and-actuators/parts/hoses/air-water-hose-5x3mm-transparent-silicone-1m) / [rubberwebshop](https://www.rubberwebshop.nl/slangen/siliconen-slang) |
-| TPU tubing, e.g. 6mm and 4mm  |  [RS 6mm TPU](https://nl.rs-online.com/web/p/air-hoses/0594711) / [RS 4mm TPU](https://nl.rs-online.com/web/p/air-hoses/0594709)  |
-| Festo connectors, e.g. 6mm and 4mm  |  [RS Festo 6mm T-junction](https://nl.rs-online.com/web/p/pneumatic-fittings/1215977)  |
-| internal connectors (try aquarium shops)  |  [bol.com](https://www.bol.com/nl/nl/p/40-delige-aquarium-luchtventiel-connector-set-wit-plastic-inline-tubing-met-3-weg-t-stuk-en-rechte-verbinding-voor-optimaal-luchttransport/9300000283278539/)  |
+| Silicone tubing, e.g. 8x5mm, 6x3mm, 3x1.5mm        |  [TinyTronics 5x3mm](https://www.tinytronics.nl/en/mechanics-and-actuators/parts/hoses/air-water-hose-5x3mm-transparent-silicone-1m){:target="_blank"} / [rubberwebshop](https://www.rubberwebshop.nl/slangen/siliconen-slang){:target="_blank"} |
+| TPU tubing, e.g. 6mm and 4mm  |  [RS 6mm TPU](https://nl.rs-online.com/web/p/air-hoses/0594711){:target="_blank"} / [RS 4mm TPU](https://nl.rs-online.com/web/p/air-hoses/0594709){:target="_blank"}  |
+| Festo connectors, e.g. 6mm and 4mm  |  [RS Festo 6mm T-junction](https://nl.rs-online.com/web/p/pneumatic-fittings/1215977){:target="_blank"}  |
+| Internal connectors (try aquarium shops)  |  [bol.com](https://www.bol.com/nl/nl/p/40-delige-aquarium-luchtventiel-connector-set-wit-plastic-inline-tubing-met-3-weg-t-stuk-en-rechte-verbinding-voor-optimaal-luchttransport/9300000283278539/){:target="_blank"}  |
 
 You can also use short pieces (approx. 20mm) of 8x5 silicone tubing to connect silicone and TPU tubes with a 6mm outer diameter! 
 
 
 ## Silicones for casting in moulds
 Usually bought at FormX.   
-Try the less elastic DragonSkin 10, 20, or 30: [link](https://www.formx.eu/molding--casting/platinum-silicones/dragon-skin-series/index.php).  
-Or the more elastic Ecoflex 00-10, 00-10, or 00-30: [link](https://www.formx.eu/molding--casting/platinum-silicones/ecoflex-series/index.php)  
+Try the less elastic DragonSkin 10, 20, or 30: [link](https://www.formx.eu/molding--casting/platinum-silicones/dragon-skin-series/index.php){:target="_blank"}.  
+Or the more elastic Ecoflex 00-10, 00-10, or 00-30: [link](https://www.formx.eu/molding--casting/platinum-silicones/ecoflex-series/index.php){:target="_blank"}. 
 The numbers (10, 20, 30) indicate the **shore hardness** of the material. Look up a shore hardness table on the internet to get an idea of what these numbers mean.
 
 
@@ -47,8 +47,8 @@ Whatever you do, don't try to seal or otherwise heat up or burn PVC sheets! This
 
 | type          | order link    |
 | ------------- | ------------- |
-| TPU-coated nylon        |   [Extremtextil](https://www.extremtextil.de/en/nylon-70den-tpu-coated-one-side-170g-sqm-heat-sealable/71106?number=71106.SW)  |
-| TPU sheets              |   [bonoborepair](https://bonoborepair.de/1470mmx1000mm-TPU-Film-100-Micron_1)  |
-| PU/PE sheets               |  [hornbach thin](https://www.hornbach.nl/p/schildersfolie-sterk-4x2-5-m/7729411/) / [hornbach thick](https://www.hornbach.nl/p/bouwfolie-transparant-rol-2x25-m/7049793/)   |
+| TPU-coated nylon        |   [Extremtextil](https://www.extremtextil.de/en/nylon-70den-tpu-coated-one-side-170g-sqm-heat-sealable/71106?number=71106.SW){:target="_blank"}  |
+| TPU sheets              |   [bonoborepair](https://bonoborepair.de/1470mmx1000mm-TPU-Film-100-Micron_1){:target="_blank"}  |
+| PU/PE sheets               |  [hornbach thin](https://www.hornbach.nl/p/schildersfolie-sterk-4x2-5-m/7729411/){:target="_blank"} / [hornbach thick](https://www.hornbach.nl/p/bouwfolie-transparant-rol-2x25-m/7049793/){:target="_blank"}   |
 
 I only have Sovol sealing settings for the 70den TPU-coated nylon. For other thicknesses and materials you will need to tweak the settings to get the best results.
