@@ -66,7 +66,7 @@ This is a slightly more complicated circuit you can build. The pump can inflate 
 ### Pump, solenoid and pressure sensor
 If you want to inflate your inflatable to a certain target pressure, you need to measure the pressure with a sensor. The circuit below integrates a pressure sensor.
 
-![Circuit of one pump, solenoid valve, pressure sensor, and inflatable](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pump%20solenoid%20sensor.png){: style="height: 200px; width: auto;" }
+![Circuit of one pump, solenoid valve, pressure sensor, and inflatable](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pump%20solenoid%20sensor.png){: style="height: 300px; width: auto;" }
 
 **Advantages:**
 1. More precise control possible
