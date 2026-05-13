@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 ## AirSystem
-I've created two types of air system to support students in their pneumatics prototyping. Contact me if you want to borrow these (Katrien van Riet in TU/e Teams).
+I've created two types of air system to support students in their pneumatics prototyping. Contact me if you want to borrow these (Katrien van Riet in TU/e Teams). If you want to create your own system, check out this page: [link](https://kvriet.github.io/pneumatics/docs/electronics.html).
 
 ### AirSystem original (Waveshare RP2040 PiZero based)
 This system lets you quickly swap out 4 'air units', each consisting of 1 pump, 1 solenoid valve, and 1 pressure sensor. This is nice for testing shape-changing interfaces, for example, where different areas need to show different inflation/deflation behaviours.
