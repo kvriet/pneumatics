@@ -44,7 +44,7 @@ If you leave some material around your outer seal line, you can sew pouches toge
 ![image showing where to sew buttons together](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sewing.png){: style="height: 200px; width: auto;" }
 
 ### Sealing larger areas
-You are normally limited to the 30x30cm printbed of the Sovol for sealing. However, you can get around this by using a larger sheet, sealing up to a certain point, moving the material, and then continuing the rest of the sealing pattern in exactly the right spot. This is tricky to achieve. The diagram below shows you one method of doing this.
+You are normally limited to the 30x30cm printbed of the Sovol for sealing. However, you can get around this by using a larger sheet, sealing up to a certain point, moving the material, and then continuing the rest of the sealing pattern in exactly the right spot. This is tricky to achieve, so it helps to draw some overlapping squiggly lines to ensure airtightness. The diagram below shows you one method of doing this.
 
 ![image showing how to seal beyond 30x30cm area](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20larger.png){: style="height: 200px; width: auto;" }
 
