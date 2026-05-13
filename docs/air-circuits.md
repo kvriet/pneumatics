@@ -29,7 +29,7 @@ In this **pneumatic-electronic analogy**, the pump is like a battery, the positi
 | One-way valve                 | Diode   |
 | Ambient atmospheric pressure  | Ground   |
 
-Now that we can think about air flowing in circuits, we can also use schematic notation to draw our pneumatic circuits, just like in electronics. Here are the symbols that I use to draw my circuits, but you can find different symbols online if you search for pneumatic and hydraulic symbols. As long as you're consistent, you're good to go.
+Now that we can think about air flowing in circuits, we can also use schematic notation to draw our pneumatic circuits, just like in electronics. Here are the **pneumatic symbols** that I use to draw my circuits, but you can find different symbols online if you search for pneumatic and hydraulic symbols. As long as you're consistent, you're good to go.
 
 ![overview of pneumatic symbols](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pneumatic%20symbols.png){: style="height: 200px; width: auto;" }
 
@@ -37,6 +37,28 @@ Now that we can think about air flowing in circuits, we can also use schematic n
 This depends on the kind of device you're building. Below is a list of some example configurations you can use.
 
 ### One pump to inflate and deflate an inflatable
+This is the simplest circuit you can build. Use a single pump to inflate your inflatable. Add a narrow tube (flow restrictor) that vents air to the atmosphere so your inflatable is always leaking. By activating the pump, the inflatable inflates, and by deactivating the pump, the inflatable (slowly) deflates.
 
+![Circuit of one pump, inflatable, and flow restrictor](){: style="height: 200px; width: auto;" }
 
+**Advantages:**
+1. Only one pump needed.
+1. Simple to program with an Arduino
 
+**Disadvantages**
+1. To keep the inflatable inflated, the pump needs to be turned on continuously
+1. The inflatable cannot be inflated to the maximum pressure the pump can deliver (probably 1.5 bar)
+1. When turned on for longer periods, the pump can get warm
+
+### Pump to inflate and solenoid valve to deflate an inflatable
+This is a slightly more complicated circuit you can build. The pump can inflate the inflatable the desired amount. The solenoid can deflate the inflatable. 
+
+![Circuit of one pump, solenoid valve, and inflatable](){: style="height: 200px; width: auto;" }
+
+**Advantages:**
+1. Pump does not have to be on continuously
+1. Inflatable can be fully pressurised (probably 1.5 bar)
+
+**Disadvantages**
+1. 2 components needed instead of one
+1. When opened for longer periods, the solenoid can get warm
