@@ -35,7 +35,7 @@ You can also use short pieces (approx. 20mm) of 8x5 silicone tubing to connect s
 
 ## Silicones for casting in moulds
 Usually bought at FormX.   
-Try the less elastic DragonSkin 10, 20, or 30: [link](https://www.formx.eu/molding--casting/platinum-silicones/dragon-skin-series/index.php). 
+Try the less elastic DragonSkin 10, 20, or 30: [link](https://www.formx.eu/molding--casting/platinum-silicones/dragon-skin-series/index.php).  
 Or the more elastic Ecoflex 00-10, 00-10, or 00-30: [link](https://www.formx.eu/molding--casting/platinum-silicones/ecoflex-series/index.php)  
 The numbers (10, 20, 30) indicate the **shore hardness** of the material. Look up a shore hardness table on the internet to get an idea of what these numbers mean.
 
