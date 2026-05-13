@@ -70,7 +70,7 @@ You can try out and edit the circuit here: [Falstad simulator - 1 pump, 1 soleno
 Example breadboard layout. (will be added)
 
 **Arduino code snippet**  
-Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 25% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
+Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 75% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
 ```
 const int pumpPin = 5; // The pin that connects to the mosfet
 int percentage = 50;
@@ -99,7 +99,7 @@ Schematic of the circuit. Make sure the ground of the Arduino is also connected 
 Example breadboard layout. (will be added)
 
 **Arduino code snippet**  
-Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 25% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
+Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 75% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
 ```
 const int pumpPin = 5; // The pin that connects to the mosfet
 int percentage = 50;
