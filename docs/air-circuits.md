@@ -39,7 +39,7 @@ This depends on the kind of device you're building. Below is a list of some exam
 ### One pump to inflate and deflate an inflatable
 This is the simplest circuit you can build. Use a single pump to inflate your inflatable. Add a narrow tube (flow restrictor) that vents air to the atmosphere so your inflatable is always leaking. By activating the pump, the inflatable inflates, and by deactivating the pump, the inflatable (slowly) deflates.
 
-![Circuit of one pump, inflatable, and flow restrictor](){: style="height: 200px; width: auto;" }
+![Circuit of one pump, inflatable, and flow restrictor](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pump%20and%20flow%20restrictor.png){: style="height: 200px; width: auto;" }
 
 **Advantages:**
 1. Only one pump needed.
@@ -53,7 +53,7 @@ This is the simplest circuit you can build. Use a single pump to inflate your in
 ### Pump to inflate and solenoid valve to deflate an inflatable
 This is a slightly more complicated circuit you can build. The pump can inflate the inflatable the desired amount. The solenoid can deflate the inflatable. 
 
-![Circuit of one pump, solenoid valve, and inflatable](){: style="height: 200px; width: auto;" }
+![Circuit of one pump, solenoid valve, and inflatable](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pump%20solenoid.png){: style="height: 200px; width: auto;" }
 
 **Advantages:**
 1. Pump does not have to be on continuously
@@ -66,7 +66,7 @@ This is a slightly more complicated circuit you can build. The pump can inflate 
 ### Pump, solenoid and pressure sensor
 If you want to inflate your inflatable to a certain target pressure, you need to measure the pressure with a sensor. The circuit below integrates a pressure sensor.
 
-![Circuit of one pump, solenoid valve, pressure sensor, and inflatable](){: style="height: 200px; width: auto;" }
+![Circuit of one pump, solenoid valve, pressure sensor, and inflatable](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pump%20solenoid%20sensor.png){: style="height: 200px; width: auto;" }
 
 **Advantages:**
 1. More precise control possible
