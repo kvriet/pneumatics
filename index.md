@@ -10,15 +10,15 @@ This website helps you design and build pneumatically actuated projects. The doc
 _Are you a TU/e student and your question isn't answered here? Send me a message on the TU/e Teams and I'll try to help you. Do you have a suggestion for other content here, let me know!_
 
 **Topics:**
-1. Air Circuits: how does air flow through a system?
-1. Inflatables: what to keep in mind when designing pneumatic interfaces and devices?
-1. AirSystem: how can I use the AirSystem to power my prototypes?
-1. Electronics & Components: how can I design and build my own pump/valve/pressure sensor system?
-1. Inspiration
+1. [Air Circuits](https://kvriet.github.io/pneumatics/docs/air-circuits.html): how does air flow through a system?
+1. [Inflatables Design](https://kvriet.github.io/pneumatics/docs/inflatables-design.html): what to keep in mind when designing pneumatic interfaces and devices?
+1. [AirSystem](https://kvriet.github.io/pneumatics/docs/AirSystem.html): how can I use the AirSystem to power my prototypes?
+1. [Electronics & Components](https://kvriet.github.io/pneumatics/docs/electronics.html): how can I design and build my own pump/valve/pressure sensor system?
+1. [Inspiration](https://kvriet.github.io/pneumatics/docs/inspiration.html)
 
 ___
 
-**Referencing**
+**Referencing**  
 To cite this resource, use the following:  
 ```
 van Riet, C. M. (2026). Home. Pneumatics Design Wiki. https://kvriet.github.io/pneumatics/
