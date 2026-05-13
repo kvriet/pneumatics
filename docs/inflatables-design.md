@@ -5,6 +5,7 @@ nav_order: 3
 ---
 
 ## Table of contents
+{: .no_toc }
 
 1. TOC
 {:toc}
