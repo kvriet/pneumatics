@@ -21,7 +21,7 @@ Depending on your inflation needs, you might need only one pump, or a variety of
 
 ### One pump, controlled by microcontroller
 **Needed:**  
-- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
+- 12V pump (e.g. 370A [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
 - 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a){:target="_blank"})
 - N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a){:target="_blank"})
 - general purpose diode (e.g. 1N4007 [link](https://www.tinytronics.nl/en/components/diodes/diode-1n4007){:target="_blank"})
@@ -51,7 +51,7 @@ analogWrite(pumpPin,255*(100/percentage);
 
 ### One pump, one solenoid valve, both controlled by microcontroller
 **Needed:**  
-- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
+- 12V pump (e.g. 370A [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
 - 12V solenoid valve (anything 12V, e.g. Tailonz 2v025-08. Try Amazon, AliExpress, etc.)
 - 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a){:target="_blank"})
 - 2x N-channel MOSFET (e.g. IRF740 [link](https://www.tinytronics.nl/en/switches/transistors-and-mosfets/mosfets-fets/irf740-power-mosfet-400v-10a){:target="_blank"})
@@ -85,7 +85,7 @@ analogWrite(valvePin,255*(100/percentageValve);
 
 ### One pump, one solenoid valve, one pressure sensor, all controlled by microcontroller
 **Needed:**  
-- 12V pump (e.g. A370 [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
+- 12V pump (e.g. 370A [link](https://www.tinytronics.nl/en/mechanics-and-actuators/motors/pumps/air-pump-pyp370-12z-12v){:target="_blank"})
 - 12V solenoid valve (anything 12V, e.g. Tailonz 2v025-08. Try Amazon, AliExpress, etc.)
 - pressure sensor (e.g. M5Stack Tube-Air pressure Unit [link](https://www.tinytronics.nl/en/sensors/air/pressure/m5stack-tube-air-pressure-unit){:target="_blank"})
 - 12V power supply (e.g. 12V, 2A [link](https://www.tinytronics.nl/en/power/power-supplies/12v/sunshine-power-adapter-with-dc-jack-5.5-2.1mm-12v-2a){:target="_blank"})
