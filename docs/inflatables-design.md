@@ -14,7 +14,7 @@ nav_order: 3
 ## Inflatables design
 To design inflatables, think in terms of **outlines** and **internal structures**. Your device outline should always be closed, unless you want to intentionally introduce a leak into your system. 
 
-![image of outer and inner structure in sealing](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/outer%20inner%v2.png){: style="height: 200px; width: auto;" }
+![image of outer and inner structure in sealing](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/outer%20inner%20v2.png){: style="height: 200px; width: auto;" }
 
 ## Working with the sealing machines
 You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html).
