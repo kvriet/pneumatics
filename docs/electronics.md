@@ -29,7 +29,7 @@ Depending on your inflation needs, you might need only one pump, or a variety of
 
 **Schematic**  
 Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit. The pump is placed in between the 12V source and the mosfet. This is called low-side switching. To learn more about high-side and low-side switching, see this webpage: [link](https://amaldev.blog/back-to-basics-high-side-and-low-side-mosfet-switches-part-1/){:target="_blank"}. We are using the mosfet like a water tap: when you turn a tap, water flows out. When you apply a high enough voltage to the gate of the mosfet, it will let current pass through (simplified explanation).  
-<img src="https://github.com/kvriet/pneumatics/blob/main/media/one%20pump.png" height="400">
+<img src="https://github.com/kvriet/pneumatics/blob/main/media/one%20pump.png" height="400"/>
 
 **Falstad**  
 You can try out and edit the circuit here: [Falstad simulator - 1 pump](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdlSS2PaO9nSesDgIYQZGAGoAhhAASvlgADYxyJbWttbsSc6uFC5QAO5uvLAKCH5K+aayilAY3gi5APZlaPmRalnhRgAiAMIAsuNo49DmCHFQkizJTkjpbiJQYAB2QX4QWMioANZBSH6PEnivqABWQdjpH3wfki3RQ6HymWyESKlT2ByOdSayBa7UyUD6AwooQWwFasJS2iseyQ9SRIihRjxOzhh2Ykn2LDJ8xyuPxxysdOsJyZFOAABkAKKLSqcwlQTkHJno8aIAAmahg+QArlMNGU1LK+KC+JE0QI0Up+OQEHhsChedsLFZnNZqglzmdUKDCARmREqVb7IkEfaeTiPbsUvaEUhLH69MAQuAIPogA){:target="_blank"}
@@ -60,7 +60,7 @@ analogWrite(pumpPin,255*(100/percentage);
 
 **Schematic**  
 Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit. The pump is placed in between the 12V source and the mosfet. This is called low-side switching. To learn more about high-side and low-side switching, see this webpage: [link](https://amaldev.blog/back-to-basics-high-side-and-low-side-mosfet-switches-part-1/){:target="_blank"}. We are using the mosfet like a water tap: when you turn a tap, water flows out. When you apply a high enough voltage to the gate of the mosfet, it will let current pass through (simplified explanation).  
-<img src="https://github.com/kvriet/pneumatics/blob/main/media/one%20pump%20one%20valve.png" height="400">
+<img src="https://github.com/kvriet/pneumatics/blob/main/media/one%20pump%20one%20valve.png" height="400"/>
 
 **Falstad**  
 You can try out and edit the circuit here: [Falstad simulator - 1 pump, 1 solenoid](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EIALI1QA3CENQBbTEICmAWiQoAfACgoUYDCgAPCpypQkddlCpE7N9qngJGVOWgq4SUfmo4+J4A9PqGwADmZogOdvRWcVDMkq44CGEGRgBqAIYQAEq5YAA2MciW1rbW7NhVLrAUDQDubrywCgh+SrmmsopQGN4I2QD2JWi5kWoZ4UYAIgDCALKjaKPQ5ghJkiz2jtZIno0IIlBgAHZBfhBYyKgA1kFIfg8SeC+oAFZB2Mfv+D8kU6KHQuXSmQiBXKOz2SSQDTcCNQrXSUB6fQooTmwGaMIO2kSBNqaVOsyyuPxdl2yWwkigu1JIkhRjxW3hR1p9MJTPJEQAMgBReblFKHKxixknM5KUaIAAmahguQArhMNCU1PK+CC+JE0QI0Up+ORTvgUCzgJsLFZnNZKlRJGc3GcQYQCHzWeUkA6nft4k7eZa2bEDo66vDLEGcUKRVtpLbOQmGSxeei5QhFcq1WgNVqdRQ9Qb3soTb8LTiQ+4WNykx5xdGKVXGDWUwz61KXZ7gEtVutrdX6TSW7Xjl3zlczTc7qCnmbPlA3s8-D8zX9UADsEDdWCIZXRXS2yOU42IlXk+H27ao9Lu832HC-RfA7fLQPGA-6slP+G0273Xe5TJoSV41M6e4UnkhTFGUWwfnsdqMB+9SksiUCogg7QwJ03S9P0XSoEMiBjBMUwzJaJhwZ+drAbYpIeF4Ph+AEvzYk2VL2H6SQJKeXrxvWl4XnQY4QWeHEJKBPGvvowAhOAED6EAA){:target="_blank"}
@@ -92,7 +92,7 @@ analogWrite(pumpPin,255*(100/percentage);
 
 **Schematic**  
 Schematic of the circuit. Make sure the ground of the Arduino is also connected to the ground in the circuit. The pump is placed in between the 12V source and the mosfet. This is called low-side switching. To learn more about high-side and low-side switching, see this webpage: [link](https://amaldev.blog/back-to-basics-high-side-and-low-side-mosfet-switches-part-1/){:target="_blank"}. We are using the mosfet like a water tap: when you turn a tap, water flows out. When you apply a high enough voltage to the gate of the mosfet, it will let current pass through (simplified explanation).  
-<img src="https://github.com/kvriet/pneumatics/blob/main/media/one%20pump%20one%20valve%20one%20pressure%20sensor.png" height="400">
+<img src="https://github.com/kvriet/pneumatics/blob/main/media/one%20pump%20one%20valve%20one%20pressure%20sensor.png" height="400"/>
 
 **Fritzing**  
 Example breadboard layout.
