@@ -62,3 +62,17 @@ This is a slightly more complicated circuit you can build. The pump can inflate 
 **Disadvantages**
 1. 2 components needed instead of one
 1. When opened for longer periods, the solenoid can get warm
+
+### Pump, solenoid and pressure sensor
+If you want to inflate your inflatable to a certain target pressure, you need to measure the pressure with a sensor. The circuit below integrates a pressure sensor.
+
+![Circuit of one pump, solenoid valve, pressure sensor, and inflatable](){: style="height: 200px; width: auto;" }
+
+**Advantages:**
+1. More precise control possible
+1. Inflatable can now also be used as a force sensor (human interaction)
+
+**Disadvantages**
+1. More difficult to build
+1. Sensor might need calibration
+1. Pump might overshoot target and start to jitter. Include a overshoot offset.
