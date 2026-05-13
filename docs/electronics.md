@@ -42,7 +42,9 @@ Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Ardu
 const int pumpPin = 5; // The pin that connects to the mosfet
 int percentage = 50;
 
-analogWrite(pumpPin,255*(100/percentage); // The PWM value normally goes from 0 (low) to 255 (high). We need to convert to a value out of 255 (255*(100/percentage)) for the code to work.
+// The PWM value normally goes from 0 (0%) to 255 (100%).
+// We need to convert to a value between 0 and 255 (255*(100/percentage)) for the code to work.
+analogWrite(pumpPin,255*(100/percentage);
 ```
 
 ### One pump, one solenoid valve, both controlled by microcontroller
