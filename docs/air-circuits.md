@@ -63,7 +63,7 @@ This is a slightly more complicated circuit you can build. The pump can inflate 
 1. 2 components needed instead of one
 1. When opened for longer periods, the solenoid can get warm
 
-### Pump, solenoid and pressure sensor
+### Pump, solenoid and pressure sensor for precise control
 If you want to inflate your inflatable to a certain target pressure, you need to measure the pressure with a sensor. The circuit below integrates a pressure sensor.
 
 ![Circuit of one pump, solenoid valve, pressure sensor, and inflatable](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pump%20solenoid%20sensor.png){: style="height: 300px; width: auto;" }
