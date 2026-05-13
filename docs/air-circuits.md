@@ -29,8 +29,14 @@ In this **pneumatic-electronic analogy**, the pump is like a battery, the positi
 | One-way valve                 | Diode   |
 | Ambient atmospheric pressure  | Ground   |
 
+Now that we can think about air flowing in circuits, we can also use schematic notation to draw our pneumatic circuits, just like in electronics. Here are the symbols that I use to draw my circuits, but you can find different symbols online if you search for pneumatic and hydraulic symbols. As long as you're consistent, you're good to go.
+
+![overview of pneumatic symbols](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/pneumatic%20symbols.png){: style="height: 200px; width: auto;" }
+
 ## What kind of air circuit do I need?
 This depends on the kind of device you're building. Below is a list of some example configurations you can use.
+
+### One pump to inflate and deflate an inflatable
 
 
 
