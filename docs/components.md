@@ -11,10 +11,9 @@ nav_order: 6
 {:toc}
 ---
 
-## Components
 Here are some suggestions for commonly used materials. Some materials are expensive, are expensive to ship, or can only be ordered in bulk. It might be a good idea to team up with fellow students and order some materials together, to save on money. I've tried to find cheap materials, to keep pneumatics design accessible.
 
-### Electronics
+## Electronics
 For pumps, solenoid valves, air pressure sensors, microcontrollers, try shops like: 
 - TinyTronics: [link](https://www.tinytronics.nl/)
 - RobotShop: [link](https://eu.robotshop.com/nl/)
@@ -22,7 +21,7 @@ For pumps, solenoid valves, air pressure sensors, microcontrollers, try shops li
 - Or at your own risk, Amazon and AliExpress.
 
 
-### Tubing and connectors
+## Tubing and connectors
 | type          | order link    |
 | ------------- | ------------- |
 | Silicone tubing, e.g. 8x5mm, 6x3mm, 3x1.5mm        |  [TinyTronics 5x3mm](https://www.tinytronics.nl/en/mechanics-and-actuators/parts/hoses/air-water-hose-5x3mm-transparent-silicone-1m) / [rubberwebshop](https://www.rubberwebshop.nl/slangen/siliconen-slang) |
@@ -33,14 +32,14 @@ For pumps, solenoid valves, air pressure sensors, microcontrollers, try shops li
 You can also use short pieces (approx. 20mm) of 8x5 silicone tubing to connect silicone and TPU tubes with a 6mm outer diameter! 
 
 
-### Silicones for casting in moulds
+## Silicones for casting in moulds
 Usually bought at FormX.   
 Try the less elastic DragonSkin 10, 20, or 30: [link](https://www.formx.eu/molding--casting/platinum-silicones/dragon-skin-series/index.php). 
 Or the more elastic Ecoflex 00-10, 00-10, or 00-30: [link](https://www.formx.eu/molding--casting/platinum-silicones/ecoflex-series/index.php)  
 The numbers (10, 20, 30) indicate the **shore hardness** of the material. Look up a shore hardness table on the internet to get an idea of what these numbers mean.
 
 
-### Sheets for sealing
+## Sheets for sealing
 You can seal with the adapted Sovol printers, but you can also try sealing with your own 3D printer (if you have access to one) with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html).
 
 Whatever you do, don't try to seal or otherwise heat up or burn PVC sheets! This will release chlorine gas, which is very bad for your health. Check on the packaging what the material is. If you don't know, don't seal it!
