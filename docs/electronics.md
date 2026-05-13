@@ -72,12 +72,15 @@ Example breadboard layout. (will be added)
 **Arduino code snippet**  
 Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 75% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
 ```
-const int pumpPin = 5; // The pin that connects to the mosfet
-int percentage = 50;
+const int pumpPin = 5; // The pin that connects to the pump mosfet
+const int valvePin = 9; // The pin that connects to the valve mosfet
+int percentagePump = 50;
+int percentageValve = 50;
 
 // The PWM value normally goes from 0 (0%) to 255 (100%).
 // We need to convert to a value between 0 and 255 (255*(100/percentage)) for the code to work.
-analogWrite(pumpPin,255*(100/percentage);
+analogWrite(pumpPin,255*(100/percentagePump);
+analogWrite(valvePin,255*(100/percentageValve);
 ```
 
 ### One pump, one solenoid valve, one pressure sensor, all controlled by microcontroller
@@ -101,10 +104,16 @@ Example breadboard layout. (will be added)
 **Arduino code snippet**  
 Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 75% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
 ```
-const int pumpPin = 5; // The pin that connects to the mosfet
-int percentage = 50;
+const int pumpPin = 5; // The pin that connects to the pump mosfet
+const int valvePin = 9; // The pin that connects to the valve mosfet
+const int sensorPin = A0; // The pin that connects to the pressure sensor
+int percentagePump = 50;
+int percentageValve = 50;
 
 // The PWM value normally goes from 0 (0%) to 255 (100%).
 // We need to convert to a value between 0 and 255 (255*(100/percentage)) for the code to work.
-analogWrite(pumpPin,255*(100/percentage);
+analogWrite(pumpPin,255*(100/percentagePump);
+analogWrite(valvePin,255*(100/percentageValve);
+int sensorValue = analogRead(sensorPin);
+Serial.println(sensorValue);
 ```
