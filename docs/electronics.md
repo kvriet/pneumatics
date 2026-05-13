@@ -70,17 +70,17 @@ You can try out and edit the circuit here: [Falstad simulator - 1 pump, 1 soleno
 Example breadboard layout. (will be added)
 
 **Arduino code snippet**  
-Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 75% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
+Make sure the microcontroller pin that controls the mosfet is a PWM pin. On Arduino Uno these pins have a ~ symbol next to them. On most newer microcontrollers, all pins are PWM. PWM stands for pulse-width modulation. This allows you to send signals with a varying **duty cycle**, for example high 25% of the time, and low 75% of the time. The highs and lows alternate very quickly. On 5V logic, this means that the output signal will look like 0.25*5V=1.25V. That way, you can 'open' the mosfet only a little bit or fully, depending on the duty cycle you send. Note that you can only PWM the pump, not the solenoid, as the solenoid is only fully open or fully closed. The solenoid has no intermediate state where it's a bit open or closed. Those solenoids do exist (proportional solenoid valves) but they're much more expensive. You can find the Arduino PWM documentation here: [link](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/){:target="_blank"}.
 ```
 const int pumpPin = 5; // The pin that connects to the pump mosfet
 const int valvePin = 9; // The pin that connects to the valve mosfet
 int percentagePump = 50;
-int percentageValve = 50;
+int stateValve = HIGH; // HIGH = 5V on Arduino and turns on the solenoid. LOW = 0V and turns off the solenoid
 
 // The PWM value normally goes from 0 (0%) to 255 (100%).
 // We need to convert to a value between 0 and 255 (255*(100/percentage)) for the code to work.
 analogWrite(pumpPin,255*(100/percentagePump);
-analogWrite(valvePin,255*(100/percentageValve);
+digitalWrite(valvePin,stateValve); // Here we can use digitalWrite, not a PWM signal, as we only use HIGH and LOW
 ```
 
 ### One pump, one solenoid valve, one pressure sensor, all controlled by microcontroller
@@ -108,12 +108,12 @@ const int pumpPin = 5; // The pin that connects to the pump mosfet
 const int valvePin = 9; // The pin that connects to the valve mosfet
 const int sensorPin = A0; // The pin that connects to the pressure sensor
 int percentagePump = 50;
-int percentageValve = 50;
+int stateValve = HIGH; // HIGH = 5V on Arduino and turns on the solenoid. LOW = 0V and turns off the solenoid
 
 // The PWM value normally goes from 0 (0%) to 255 (100%).
 // We need to convert to a value between 0 and 255 (255*(100/percentage)) for the code to work.
 analogWrite(pumpPin,255*(100/percentagePump);
-analogWrite(valvePin,255*(100/percentageValve);
+digitalWrite(valvePin,stateValve); // Here we can use digitalWrite, not a PWM signal, as we only use HIGH and LOW
 int sensorValue = analogRead(sensorPin);
 Serial.println(sensorValue);
 ```
