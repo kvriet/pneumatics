@@ -75,4 +75,4 @@ If you want to inflate your inflatable to a certain target pressure, you need to
 **Disadvantages**
 1. More difficult to build
 1. Sensor might need calibration
-1. Pump might overshoot target and start to jitter. Include a overshoot offset.
+1. Pump might overshoot target and start to jitter. Include an overshoot offset.
