@@ -39,12 +39,12 @@ There are a few techniques you can use:
 ## Advanced techniques
 
 ### Connecting sealed pouches
-If you leave some material around your outer seal line, you can sew pouches together as long as you don't stitch through the inflatable areas. By using this strategy, you can create multilayer devices.
+If you leave some material around your outer seal line, you can sew pouches together as long as you don't stitch through the inflatable areas. Of course you are not limited to sewing around the outer seal. You can sew any fabric area that is not going to be inflated. By using this strategy, you can create multilayer devices. 
 
 ![image showing where to sew buttons together](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sewing.png){: style="height: 200px; width: auto;" }
 
 ### Sealing larger areas
 You are normally limited to the 30x30cm printbed of the Sovol for sealing. However, you can get around this by using a larger sheet, sealing up to a certain point, moving the material, and then continuing the rest of the sealing pattern in exactly the right spot. This is tricky to achieve. The diagram below shows you one method of doing this.
 
-
+![image showing how to seal beyond 30x30cm area](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20larger.png){: style="height: 200px; width: auto;" }
 
