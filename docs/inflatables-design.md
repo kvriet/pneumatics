@@ -17,7 +17,7 @@ To design inflatables, think in terms of **outlines** and **internal structures*
 ![image of outer and inner structure in sealing](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/outer%20inner%20v2.png){: style="height: 200px; width: auto;" }
 
 ## Working with the sealing machines
-You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html){:target="_blank"}.
+You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html){:target="_blank"}. Sealing is faster than 3D printing, but slower than laser cutting.
 
 Here's a fabrication video that shows all the steps from sealing on the Sovol to making a finished component: [link](https://www.softmodbot.com/fabrication/#capacitor){:target="_blank"}.
 
