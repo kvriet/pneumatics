@@ -17,15 +17,15 @@ To design inflatables, think in terms of **outlines** and **internal structures*
 ![image of outer and inner structure in sealing](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/outer%20inner%20v2.png){: style="height: 200px; width: auto;" }
 
 ## Working with the sealing machines
-You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html).
+You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html){:target="_blank"}.
 
-Here's a fabrication video that shows all the steps from sealing on the Sovol to making a finished component: [link](https://www.softmodbot.com/fabrication/#capacitor).
+Here's a fabrication video that shows all the steps from sealing on the Sovol to making a finished component: [link](https://www.softmodbot.com/fabrication/#capacitor){:target="_blank"}.
 
 To already become familiar with our sealing process, see a brief overview below:  
 
 **Sealing:**  
 1. Create a **vector design** in a vector-based illustration application, like Illustrator or the free and open-source Inkscape. Save it as an SVG. Check that your outline consists of one continuous path (all nodes are joined). Otherwise you might get leaks. When creating your design, be careful that you don't create duplicated lines over each other, or random single nodes on your artboard. A 'select all' will highlight any strange leftovers on your artboard.
-1. **Convert your SVG** file to gcode using the svg2gcode website: [link](https://sameer.github.io/svg2gcode). The first time you use this website, you will need to update the sealing settings!
+1. **Convert your SVG** file to gcode using the svg2gcode website: [link](https://sameer.github.io/svg2gcode){:target="_blank"}. The first time you use this website, you will need to update the sealing settings!
 1. **Transfer the gcode** to the Sovol printer.
 1. **Prepare the material on the printbed.** Put baking paper on top and clamp. Ensure the printbed can move freely without the clamps hitting the frame.
 1. **Start the print.**  
@@ -41,7 +41,7 @@ To already become familiar with our sealing process, see a brief overview below:
 
 ### The sealing/printing process
 ![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }
-
+^1 svg2gcode website: [https://sameer.github.io/svg2gcode/](https://sameer.github.io/svg2gcode/){:target="_blank"}
 
 ## Working with silicones and moulds
 You can 3D print moulds and pour silicone into them. We call this silicone casting. 
