@@ -19,10 +19,28 @@ To design inflatables, think in terms of **outlines** and **internal structures*
 ## Working with the sealing machines
 You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html).
 
-To already become familiar with our sealing process, see a brief overview below:
-![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }
+Here's a fabrication video that shows all the steps from sealing on the Sovol to making a finished component: [link](https://www.softmodbot.com/fabrication/#capacitor).
 
-Here's a fabrication video that shows all the steps from sealing on the Sovol to making a finished component: [link](https://www.softmodbot.com/fabrication/#capacitor)
+To already become familiar with our sealing process, see a brief overview below:  
+
+**Sealing:**  
+1. Create a **vector design** in a vector-based illustration application, like Illustrator or the free and open-source Inkscape. Save it as an SVG. Check that your outline consists of one continuous path (all nodes are joined). Otherwise you might get leaks. When creating your design, be careful that you don't create duplicated lines over each other, or random single nodes on your artboard. A 'select all' will highlight any strange leftovers on your artboard.
+1. **Convert your SVG** file to gcode using the svg2gcode website: [link](https://sameer.github.io/svg2gcode). The first time you use this website, you will need to update the sealing settings!
+1. **Transfer the gcode** to the Sovol printer.
+1. **Prepare the material on the printbed.** Put baking paper on top and clamp. Ensure the printbed can move freely without the clamps hitting the frame.
+1. **Start the print.**  
+
+**Optional printing**  
+1. **Prepare an SVG or STL** file for 3D printing on top of the sealed geometry.
+1. SVG file: drag into PrusaSlicer and give it a height. Put it in the correct location (x,y coordinates). Select the correct printing settings. Export the gcode.
+1. STL file: drag into PrusaSlicer. Put it in the correct location (x,y coordinates). Select the correct printing settings. Export the gcode.
+1. **Transfer the gcode** to the Sovol printer.
+1. Carefully **remove the baking paper** without moving the fabric.
+1. **Replace the sealing extruder for the printing extruder**. Insert filament.
+1. **Start the print.**
+
+### The sealing/printing process
+![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }
 
 
 ## Working with silicones and moulds
