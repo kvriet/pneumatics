@@ -1,5 +1,5 @@
 ---
-title: Inflatables Design
+title: Inflatables Design & Fabrication
 layout: default
 nav_order: 3
 ---
