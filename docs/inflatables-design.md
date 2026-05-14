@@ -20,7 +20,7 @@ To design inflatables, think in terms of **outlines** and **internal structures*
 You need a formal training to use the sealing machines. After successfully completing the training, you will receive a detailed sealing manual which shows the sealing procedure in depth. If you own a printer (or have access to one) you can also try sealing yourself with just the printing nozzle heated up to around 270 degrees. See this resource for an example (scroll down): [link](https://class.textile-academy.org/2022/saskia-helinska/finalproject.html).
 
 To already become familiar with our sealing process, see a brief overview below:
-
+![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }
 
 Here's a fabrication video that shows all the steps from sealing on the Sovol to making a finished component: [link](https://www.softmodbot.com/fabrication/#capacitor)
 
