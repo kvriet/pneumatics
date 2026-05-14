@@ -40,8 +40,8 @@ To already become familiar with our sealing process, see a brief overview below:
 1. **Start the print.**
 
 ### The sealing/printing process
-![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }
-^1^ svg2gcode website: [https://sameer.github.io/svg2gcode/](https://sameer.github.io/svg2gcode/){:target="_blank"}
+![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }  
+1 svg2gcode website: [https://sameer.github.io/svg2gcode/](https://sameer.github.io/svg2gcode/){:target="_blank"}
 
 ## Working with silicones and moulds
 You can 3D print moulds and pour silicone into them. We call this silicone casting. 
