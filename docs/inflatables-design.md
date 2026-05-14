@@ -41,7 +41,7 @@ To already become familiar with our sealing process, see a brief overview below:
 
 ### The sealing/printing process
 ![sealing process overview](https://raw.githubusercontent.com/kvriet/pneumatics/main/media/sealing%20overview.png){: style="height: 300px; width: auto;" }  
-{: .fs-2 }
+{: .fs-1 }
 1 svg2gcode website: [https://sameer.github.io/svg2gcode/](https://sameer.github.io/svg2gcode/){:target="_blank"}
 
 ## Working with silicones and moulds
